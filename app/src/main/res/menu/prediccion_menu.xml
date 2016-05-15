@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/salud"
+        android:onClick="seleccionarSalud"
+        android:title="Salud"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/dinero"
+        android:onClick="seleccionarDinero"
+        android:title="Dinero"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/amor"
+        android:onClick="seleccionarAmor"
+        android:title="Amor"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/enviarSms"
+        android:title="Enviar por SMS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/enviarMail"
+        android:title="Enviar por Mail"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/enviarOtro"
+        android:title="Compartir"
+        app:showAsAction="never" />
+</menu>
