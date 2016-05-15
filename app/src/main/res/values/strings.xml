@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Tu Suerte</string>
+    <string name="horoscopo_chino">Horóscopo Chino</string>
+    <string name="horoscopo_zodiaco">Horóscopo Zodíaco</string>
+    <string name="tu_signo_es">Tu signo es %s</string>
+
+    <array name="signosChinos">
+        <item>Rata</item>
+        <item>Buey</item>
+        <item>Tigre</item>
+        <item>Conejo</item>
+        <item>Dragon</item>
+        <item>Serpiente</item>
+        <item>Caballo</item>
+        <item>Cabra</item>
+        <item>Mono</item>
+        <item>Gallo</item>
+        <item>Perro</item>
+        <item>Cerdo</item>
+    </array>
+
+    <array name="prediccionesAmor">
+        <item>vas a ser un solterón</item>
+        <item>nadie te quiere</item>
+        <item>sos un dandy</item>
+        <item>Hijo\'e tigre!</item>
+    </array>
+
+    <array name="prediccionesDinero">
+        <item>Andá pidiendo prestado</item>
+        <item>Tomate una cerveza menos hoy</item>
+    </array>
+
+    <array name="prediccionesSalud">
+        <item>Tomate un anaflex</item>
+        <item>Sos un roble, papá!</item>
+    </array>
+</resources>

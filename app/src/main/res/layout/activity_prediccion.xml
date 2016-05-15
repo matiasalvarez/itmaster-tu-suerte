@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PrediccionActivity">
+
+    <ImageView
+        android:id="@+id/imgLogoSigno"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvNombreSigno"
+        android:layout_alignTop="@+id/tvNombreSigno"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/unknown" />
+
+    <TextView
+        android:id="@+id/tvNombreSigno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imgLogoSigno"
+        android:layout_toRightOf="@+id/imgLogoSigno"
+        android:text="Acuario"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/tvPrediccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvNombreSigno"
+        android:scrollbars="vertical"
+        android:text="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de
+        texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
+        cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una
+        galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+        No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos
+        electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con
+        la creación de Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de
+        texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
+        cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una
+        galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+        No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos
+        electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con
+        la creación de Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de
+        texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
+        cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una
+        galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+        No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos
+        electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con
+        la creación de Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de
+        texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500,
+        cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una
+        galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+        No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos
+        electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con
+        la creación delas hojas Letraset, las cuales contenian pasajes de Lorem Ipsum, y más
+        recientemente con software de autoedición, como por ejemplo Aldus PageMaker,
+        el cual incluye versiones de Lorem Ipsum." />
+</RelativeLayout>
